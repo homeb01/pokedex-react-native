@@ -30,7 +30,7 @@ function Index() {
         id: Number(p.url.split("/").filter(Boolean).pop()),
       }));
       setPokemon(list);
-      await new Promise((res) => setTimeout(res, 10000)); // Esperar 10 segundos para ver el indicador de carga
+      // await new Promise((res) => setTimeout(res, 10000)); // Esperar 10 segundos para ver el indicador de carga
       setLoading(false);
     };
     load();

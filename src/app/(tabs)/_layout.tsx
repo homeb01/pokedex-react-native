@@ -7,11 +7,10 @@ export default function TabsLayout() {
       screenOptions={{
         tabBarActiveTintColor: "tomato",
         tabBarInactiveTintColor: "gray",
-        tabBarShowLabel: false,
         tabBarItemStyle: {
           paddingVertical: 2,
         },
-        tabBarStyle: { height: 20 },
+        tabBarStyle: { height: 30 },
       }}
     >
       <Tabs.Screen
